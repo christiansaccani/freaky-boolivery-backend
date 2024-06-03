@@ -1,0 +1,73 @@
+.my_form_btn {
+    color: white;
+    background-color: #37373b;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+
+    transition: all 0.3s linear;
+    font-weight: 600;
+}
+
+.my_form_btn:hover {
+    color: #37373b;
+    background-color: #f8f8f6;
+}
+
+.my_submit_btn {
+    padding: 10px 20px;
+    border-radius: 25px;
+
+    transition: all 0.3s linear;
+    font-weight: 600;
+}
+
+.my_submit_btn:hover {
+    color: #0249b3;
+    background-color: #f8f8f6;
+}
+
+.my_visible {
+    position: relative;
+
+    color: #37373b;
+    background-color: #f8f8f6;
+
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+// .my_check {
+//     position: absolute;
+
+//     scale: 1.5;
+//     cursor: pointer;
+
+//     right: 2rem;
+//     bottom: 50%;
+
+//     transform: translateY(25%);
+// }
+
+.table_mail {
+    max-width: 10rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 768px) {
+    .phone-none {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .table_address {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        max-width: 8rem;
+    }
+}

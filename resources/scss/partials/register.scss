@@ -1,0 +1,60 @@
+body {
+    background-color: #f2ca39;
+}
+
+.jumbotron-welcome {
+    background-color: #f2ca39;
+}
+
+.logo_laravel {
+    img {
+        max-width: 20%;
+    }
+}
+
+.logo-navbar {
+    img {
+        max-width: 10%;
+    }
+}
+
+.type-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.section-one-container {
+    text-align: center;
+}
+
+.badge-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.restaurant-name {
+    font-size: 30px;
+    font-weight: bold;
+    transform: skewX(10deg);
+}
+
+//temp
+
+.reg-button {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+
+    transition: all 0.3s linear;
+    font-weight: 600;
+}
+
+.reg-button:hover {
+    color: black;
+    background-color: #f8f8f6;
+}

@@ -1,0 +1,49 @@
+.navbar {
+    background-color: #f8f8f6;
+}
+
+.my_logo {
+    max-width: 7rem;
+    width: 100%;
+}
+
+.nav-link {
+    border: 1px solid #36373b;
+    border-radius: 12px;
+    color: #36373b;
+    font-weight: 600;
+
+    transition: all 0.2s linear;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    background-color: #36373b;
+    color: #f8f8f6 !important;
+}
+
+.dropdown-menu {
+    background-color: #f8f8f6;
+}
+
+.dropdown-item:hover {
+    background-color: #f2ca39;
+    color: #36373b;
+
+    font-weight: 500;
+}
+
+.dropdown-item:active {
+    background-color: #f2ca39;
+    color: #36373b;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        padding: 1rem 0 !important;
+    }
+
+    .my_logo {
+        max-width: 5rem;
+    }
+  }
